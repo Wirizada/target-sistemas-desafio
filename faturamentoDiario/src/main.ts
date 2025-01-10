@@ -1,7 +1,6 @@
 import * as fs from 'fs';
 import * as path from 'path';
 
-// Caminho absoluto do arquivo JSON
 const jsonFilePath = path.resolve(__dirname, 'dados.json');
 const jsonFile = fs.readFileSync(jsonFilePath, 'utf8');
 
